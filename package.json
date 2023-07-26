@@ -1,0 +1,21 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "type": "module",
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm start"
+  }
+}
